@@ -1,6 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +43,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width:670px) {
+  h2 {
+      font-size: medium;
+  }
+  p{
+      font-size: small;
+  }
+ 
 }

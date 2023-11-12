@@ -1,0 +1,19 @@
+.boox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boox2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.boox1 img{
+    width: 18%;
+}
+
+.boox3 img{
+    width: 18%;
+}

@@ -1,0 +1,123 @@
+.img2 img{
+    width:  100% !important;
+}
+.Sction2{
+    padding-top: 80px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{ 
+    position: relative;
+}
+
+.loader-pulse {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+    animation: load-pulse 0.85s infinite linear;
+    position: absolute;
+    top: -10%;
+    /* left: -408%; */
+    right: -585%;
+
+}
+
+.loader-pulse1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+    animation: load-pulse 0.85s infinite linear;
+    position: absolute;
+    top: -10%;
+    /* left: -408%; */
+    right: -585%;
+
+}
+
+.loader-pulse2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+    animation: load-pulse 0.85s infinite linear;
+    position: absolute;
+    top: -10%;
+    /* left: -408%; */
+    right: -585%;
+
+}
+
+.loader-pulse3 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+    animation: load-pulse 0.85s infinite linear;
+    position: absolute;
+    top: -10%;
+    /* left: -408%; */
+    right: -585%;
+
+}
+
+.ss {
+
+    position: absolute;
+    width: 2px;
+    height: 30%;
+    background: black;
+    top: 64%;
+    left: 13%;
+}
+
+.ss1 {
+
+    position: absolute;
+    width: 2px;
+    height: 30%;
+    background: black;
+    top: 64%;
+    left: 36%;
+}
+
+.ss2 {
+
+    position: absolute;
+    width: 2px;
+    height: 30%;
+    background: black;
+    top: 64%;
+    left: 62%;
+}
+
+.ss3 {
+
+    position: absolute;
+    width: 2px;
+    height: 30%;
+    background: black;
+    top: 64%;
+    left: 87%;
+}
+
+
+@keyframes load-pulse {
+    0% {
+      transform: scale(0.15);
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }

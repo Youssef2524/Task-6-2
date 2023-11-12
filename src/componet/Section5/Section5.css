@@ -1,0 +1,13 @@
+.accordion {
+    width: 700px;
+}
+.child{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.child img{
+    width: 280px;
+    height: 450px;
+}

@@ -1,0 +1,10 @@
+.Section1{    margin: 30px 0px;
+    text-align: center;}
+
+.part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 98vw;
+    flex-wrap: wrap;
+}    

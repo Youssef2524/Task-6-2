@@ -1,0 +1,62 @@
+.footer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: max-content;
+  background-color: black;
+  padding-bottom: 20px;
+
+}
+
+.end-form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 48px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+span {
+  width: 2px;
+  height: 30px;
+  background-color: white;
+}
+
+.hover:hover {
+  color: rgb(232, 44, 44);
+  cursor: pointer;
+
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+}
+
+.search input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search button[type="submit"] {
+  background-color: black;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  transition: .9s ease;
+}
+
+.search button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: red;
+}
+
